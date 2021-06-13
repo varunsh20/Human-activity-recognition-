@@ -8,16 +8,7 @@ The six activities includes 'Standing', 'Sitting', 'Laying', 'Walking', 'Walking
 
 A multi layer perceptron network was trained. Here is the structure of the model
 
-model = models.Sequential()
-
-model.add(Dense(64,activation='relu',input_dim=X_train.shape[1]))
-model.add(Dropout(0.25))
-model.add(Dense(128,activation='relu'))
-model.add(Dense(64,activation='relu'))
-model.add(Dense(32,activation='relu'))
-model.add(Dropout(0.25))
-model.add(Dense(10,activation='relu'))
-model.add(Dense(6,activation='softmax'))
+![Screenshot (163)](https://user-images.githubusercontent.com/62187533/121819071-d1b7fc80-cca8-11eb-882a-dd3e4550c472.png)
 
 This model was able to produce 93% accurate results.
 
